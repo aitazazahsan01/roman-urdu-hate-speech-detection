@@ -1,0 +1,127 @@
+{
+  "Fine_Grained": {
+    "split": "test",
+    "n": 721,
+    "accuracy": 0.6823855755894591,
+    "macro_f1": 0.6174352077274318,
+    "weighted_f1": 0.6879557010906807,
+    "per_class": [
+      {
+        "label": "Abusive/Offensive",
+        "precision": 0.6229508196721312,
+        "recall": 0.4393063583815029,
+        "f1": 0.5152542372881356,
+        "support": 173
+      },
+      {
+        "label": "Profane/Untargeted",
+        "precision": 0.4722222222222222,
+        "recall": 0.7391304347826086,
+        "f1": 0.576271186440678,
+        "support": 46
+      },
+      {
+        "label": "Religious Hate",
+        "precision": 0.45454545454545453,
+        "recall": 0.7894736842105263,
+        "f1": 0.5769230769230769,
+        "support": 57
+      },
+      {
+        "label": "Sexism",
+        "precision": 0.4948453608247423,
+        "recall": 0.8,
+        "f1": 0.6114649681528662,
+        "support": 60
+      },
+      {
+        "label": "Normal",
+        "precision": 0.8731117824773413,
+        "recall": 0.7506493506493507,
+        "f1": 0.8072625698324022,
+        "support": 385
+      }
+    ],
+    "confusion_matrix": [
+      [
+        76,
+        30,
+        12,
+        32,
+        23
+      ],
+      [
+        34,
+        289,
+        38,
+        11,
+        13
+      ],
+      [
+        3,
+        4,
+        45,
+        3,
+        2
+      ],
+      [
+        6,
+        4,
+        2,
+        48,
+        0
+      ],
+      [
+        3,
+        4,
+        2,
+        3,
+        34
+      ]
+    ],
+    "label_names": [
+      "Abusive/Offensive",
+      "Normal",
+      "Religious Hate",
+      "Sexism",
+      "Profane/Untargeted"
+    ]
+  },
+  "Coarse_Grained": {
+    "split": "test",
+    "n": 800,
+    "accuracy": 0.8725,
+    "macro_f1": 0.8716787439613527,
+    "weighted_f1": 0.8723973429951691,
+    "per_class": [
+      {
+        "label": "Abusive/Offensive",
+        "precision": 0.8708791208791209,
+        "recall": 0.8521505376344086,
+        "f1": 0.8614130434782609,
+        "support": 372
+      },
+      {
+        "label": "Normal",
+        "precision": 0.8738532110091743,
+        "recall": 0.8901869158878505,
+        "f1": 0.8819444444444444,
+        "support": 428
+      }
+    ],
+    "confusion_matrix": [
+      [
+        317,
+        55
+      ],
+      [
+        47,
+        381
+      ]
+    ],
+    "label_names": [
+      "Abusive/Offensive",
+      "Normal"
+    ]
+  }
+}

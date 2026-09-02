@@ -1,0 +1,127 @@
+{
+  "Coarse_Grained": {
+    "split": "test",
+    "n": 800,
+    "accuracy": 0.83625,
+    "macro_f1": 0.8347980295566503,
+    "weighted_f1": 0.8358821674876847,
+    "per_class": [
+      {
+        "label": "Abusive/Offensive",
+        "precision": 0.8413597733711048,
+        "recall": 0.7983870967741935,
+        "f1": 0.8193103448275862,
+        "support": 372
+      },
+      {
+        "label": "Normal",
+        "precision": 0.8322147651006712,
+        "recall": 0.8691588785046729,
+        "f1": 0.8502857142857143,
+        "support": 428
+      }
+    ],
+    "confusion_matrix": [
+      [
+        297,
+        75
+      ],
+      [
+        56,
+        372
+      ]
+    ],
+    "label_names": [
+      "Abusive/Offensive",
+      "Normal"
+    ]
+  },
+  "Fine_Grained": {
+    "split": "test",
+    "n": 721,
+    "accuracy": 0.7434119278779473,
+    "macro_f1": 0.6772556337841511,
+    "weighted_f1": 0.7428509875663334,
+    "per_class": [
+      {
+        "label": "Religious Hate",
+        "precision": 0.5507246376811594,
+        "recall": 0.6666666666666666,
+        "f1": 0.6031746031746031,
+        "support": 57
+      },
+      {
+        "label": "Abusive/Offensive",
+        "precision": 0.673469387755102,
+        "recall": 0.5722543352601156,
+        "f1": 0.61875,
+        "support": 173
+      },
+      {
+        "label": "Profane/Untargeted",
+        "precision": 0.6122448979591837,
+        "recall": 0.6521739130434783,
+        "f1": 0.631578947368421,
+        "support": 46
+      },
+      {
+        "label": "Sexism",
+        "precision": 0.6428571428571429,
+        "recall": 0.75,
+        "f1": 0.6923076923076923,
+        "support": 60
+      },
+      {
+        "label": "Normal",
+        "precision": 0.8393782383419689,
+        "recall": 0.8415584415584415,
+        "f1": 0.8404669260700389,
+        "support": 385
+      }
+    ],
+    "confusion_matrix": [
+      [
+        99,
+        41,
+        5,
+        14,
+        14
+      ],
+      [
+        30,
+        324,
+        24,
+        5,
+        2
+      ],
+      [
+        9,
+        6,
+        38,
+        2,
+        2
+      ],
+      [
+        3,
+        10,
+        1,
+        45,
+        1
+      ],
+      [
+        6,
+        5,
+        1,
+        4,
+        30
+      ]
+    ],
+    "label_names": [
+      "Abusive/Offensive",
+      "Normal",
+      "Religious Hate",
+      "Sexism",
+      "Profane/Untargeted"
+    ]
+  }
+}
