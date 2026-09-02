@@ -1,0 +1,5 @@
+torch
+transformers>=4.42,<5.0
+scikit-learn
+joblib
+gradio>=4.0
