@@ -1,0 +1,34 @@
+# Data (downloaded/processed, not tracked)
+data/
+
+# Model checkpoints / training outputs
+outputs/
+checkpoints/
+kaggle_output/
+kaggle_output_coarse/
+*.bin
+*.safetensors
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Kaggle credentials (never commit)
+kaggle.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Logs
+*.log

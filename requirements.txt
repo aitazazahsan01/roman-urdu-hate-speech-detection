@@ -1,0 +1,17 @@
+# Core ML
+torch>=2.2
+transformers>=4.42
+datasets>=2.19
+accelerate>=0.30
+sentencepiece
+
+# Baseline + metrics
+scikit-learn
+numpy
+joblib
+
+# Demo app
+gradio>=4.0
+
+# Kaggle GPU automation
+kaggle
