@@ -1,0 +1,15 @@
+{
+  "id": "aitazazahsan01/roman-urdu-hate-speech-detection-training-coarse",
+  "title": "Roman Urdu Hate Speech Detection Training (Coarse)",
+  "code_file": "train_kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "enable_tpu": false,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
